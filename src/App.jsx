@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Category from "./pages/Category";
-import Header from "./layou~ts/Header";
+import Header from "./layouts/Header";
 
 function App() {
   return (
