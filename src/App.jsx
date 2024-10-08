@@ -7,12 +7,10 @@ function App() {
   return (
     <>
     <Header/>
-      <BrowserRouter basename="news_app">
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/category/:slugn" element={<Category/>}/>
         </Routes>
-      </BrowserRouter>
     </>
   );
 }
