@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     <Header/>
-      <BrowserRouter>
+      <BrowserRouter basename="news_app">
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/category/:slugn" element={<Category/>}/>
