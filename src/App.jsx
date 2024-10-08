@@ -7,9 +7,9 @@ function App() {
   return (
     <>
     <Header/>
-      <BrowserRouter basename="/news-app">
+      <BrowserRouter>
         <Routes>
-          <Route path="/news-app" element={<Home/>}/>
+          <Route path="/" element={<Home/>}/>
           <Route path="/category/:slugn" element={<Category/>}/>
         </Routes>
       </BrowserRouter>
