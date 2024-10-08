@@ -9,7 +9,7 @@ function App() {
     <Header/>
       <BrowserRouter basename="/news-app">
         <Routes>
-          <Route path="/" element={<Home/>}/>
+          <Route path="/news-app" element={<Home/>}/>
           <Route path="/category/:slugn" element={<Category/>}/>
         </Routes>
       </BrowserRouter>
