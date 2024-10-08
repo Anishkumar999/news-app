@@ -6,11 +6,13 @@ import Header from "./layouts/Header";
 function App() {
   return (
     <>
-    <Header/>
+      <Header/>
+      <BrowserRouter basename="news-app">
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/category/:slugn" element={<Category/>}/>
         </Routes>
+      </BrowserRouter>
     </>
   );
 }
